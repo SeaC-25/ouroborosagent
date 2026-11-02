@@ -1,0 +1,37 @@
+# build outputs
+*.exe
+*.dll
+*.out
+*.test
+dist/
+bin/
+
+# runtime data
+runtime/
+runtime-workspace/
+test-workspace/
+workspace/
+*.log
+ctfy*.jsonl
+tmp/
+temp/
+
+# python
+__pycache__/
+*.pyc
+
+# node / desktop
+gui/node_modules/
+gui/dist/
+.native-ws/
+native-ws/
+docker-build/
+
+# env
+.env
+.env.*
+!.env.example
+
+# db sidecars
+*.db-shm
+*.db-wal
